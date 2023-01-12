@@ -1,7 +1,7 @@
 #include "Header.h"
 #include "first_main.h"
 
-int main()
+int first()
 {
 	int a = 5, b = 10;
 	double c = 5.5, d = 10.5;
@@ -10,4 +10,6 @@ int main()
 	cout << "Max int: " << Max(a, b) << endl;
 	cout << "Max double: " << Max(c, d) << endl;
 	cout << "Max char: " << Max(e, f) << endl;
+	
+	return 0;
 }

@@ -128,11 +128,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main_1.cpp" />
+    <ClCompile Include="main_ex2.cpp" />
+    <ClCompile Include="main_ex3.cpp" />
+    <ClCompile Include="main_ex4.cpp" />
     <ClCompile Include="menu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="first_main.h" />
+    <ClInclude Include="fourth_main.h" />
     <ClInclude Include="Header.h" />
+    <ClInclude Include="second_main.h" />
+    <ClInclude Include="third_main.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

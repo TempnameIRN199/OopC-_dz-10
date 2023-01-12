@@ -9,12 +9,17 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Файлы ресурсов">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="main ex.1">
       <UniqueIdentifier>{68a3c805-fa82-42d3-ad26-f08b441b9ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main ex.2">
+      <UniqueIdentifier>{cca6cb5b-dde3-4c38-8c30-f98e6caffd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main ex.3">
+      <UniqueIdentifier>{7a238ea2-3de6-4b17-9bf6-e3430de34bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main ex.4">
+      <UniqueIdentifier>{effcb319-c6f1-462f-8b52-69330c9e0495}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -24,12 +29,30 @@
     <ClCompile Include="menu.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="main_ex2.cpp">
+      <Filter>main ex.2</Filter>
+    </ClCompile>
+    <ClCompile Include="main_ex3.cpp">
+      <Filter>main ex.3</Filter>
+    </ClCompile>
+    <ClCompile Include="main_ex4.cpp">
+      <Filter>main ex.4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="first_main.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="second_main.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="third_main.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="fourth_main.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
